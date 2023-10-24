@@ -1,0 +1,11 @@
+prefix=/home/cn/GSL-arm
+exec_prefix=/home/cn/GSL-arm
+libdir=/home/cn/GSL-arm/lib
+includedir=/home/cn/GSL-arm/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.7.1
+Libs: -L/home/cn/GSL-arm/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/home/cn/GSL-arm/include
